@@ -58,3 +58,71 @@ header nav > a{
     border-radius: 20px;
     background: #10B981;
 }
+
+
+/* Footer */
+
+footer{
+    background: #111827;
+    color: #9CA3AF;
+    padding: 50px 0;
+}
+
+footer div{
+    max-width: 1536px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer div article nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer div article nav a{
+    color: #9CA3AF;
+    line-height: 2;
+}
+
+footer div article h2{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+footer div article p{
+    line-height: 1.5;
+}
+
+footer form input{
+    width: 350px;
+    padding: 10px 15px;
+    background: #1F2937;
+    border: 1px solid #1F2937;
+    margin-bottom: 20px;
+}
+
+footer .greenBtn{
+    width: 350px;
+    display: flex;
+    padding: 10px 15px;
+    background: #10B981;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.3s ease-out;
+}
+
+.greenBtn:hover{
+    background: transparent;
+    border: 1px solid #10B981;
+    transition: all 0.3s ease-out;
+}
+
+#borderTop{
+    color: #6B7280;
+    display: flex;
+    justify-content: space-between;
+}
+
