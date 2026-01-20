@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+/* General */
+
+a{
+    text-decoration: none;
+    color: #1F2937;
+    transition: all 0.3s ease-out;
+}
+
+a:hover{
+    color: #10B981;
+    transition: all 0.3s ease-out;
+}
+
+#rdv{
+    color: #fff;
+}
+
+#rdv:hover{
+    color: #10B981;
+    background: #fff;
+    border: 1px solid #10B981 ;
+}
+
+/* Header */
+
+header{
+    max-width: 1536px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 40px;
+    margin: auto;
+}
+
+header nav{
+    display: flex;
+    gap: 20px;
+}
+
+header nav > a{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #10B981;
+}
